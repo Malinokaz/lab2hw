@@ -1,6 +1,10 @@
-#include<iostream>
-#include<iomanip>
-using namespace std;
+#include <iostream>
+#include <string>
 
-int main( int argc , char * argv [ ] )
-{cout<<"Hello world!"<<endl;return 0;}
+int main() {
+    std::string name;
+    std::cout << "Enter your name: ";
+    std::cin >> name;
+    std::cout << "Hello world from @" << name << std::endl;
+    return 0;
+}
